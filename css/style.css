@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif !important;
+
+}
+
+#header-container {
+    background-color: #F96798 !important;
+    height: 30rem;
+    /* padding: 10px 0; */
+    /* Vertical padding */
+
+}
+
+#main {
+    background-color: #38CCCC !important;
+    /* padding: 60px 0; */
+    /* height: 35rem !important */
+}
+
+#gallery-section {
+    background-color: white;
+    padding: 60px 0;
+}
+
+.navbar {
+    /* text-align: right; */
+    margin-bottom: 20px;
+}
+
+.navbar .active {
+    color: crimson;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    filter: hue-rotate(0deg);
+    transition: hue-rotate 0.3s ease-in-out;
+}
+
+.card img:hover {
+    cursor: crosshair;
+    filter: hue-rotate(90deg);
+}
+
+#footer {
+    background-color: #99CCCD;
+    color: #333;
+    padding: 60px 0;
+}
+
+.footer-content {
+    margin-bottom: 30px;
+}
+
+#footer input,
+textarea {
+    background-color: #99CCCD !important;
+}
+
+.form-control::placeholder {
+    color: #fff;
+    text-align: left;
+}
+
+.socialIcn {
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.socialIcn a {
+    /* display: inline-block; */
+    background-color: white;
+    color: #99CCCD;
+    margin: 0 5px;
+}
+
+.fa-map-pin {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.contact-txt {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.copyright-section {
+    background-color: white;
+    color: #666;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.2rem;
+}
+
+.form-control.custom-border-bottom {
+    border: none;
+    border-bottom: 1px solid #fcfafa;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
